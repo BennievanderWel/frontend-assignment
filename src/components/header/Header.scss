@@ -1,0 +1,17 @@
+.header {
+  grid-area: header;
+  text-align: center;
+
+  h1 {
+    font-size: 48px;
+    background: -webkit-linear-gradient(
+      0deg,
+      #964acd 0%,
+      #6759ff 50%,
+      #1b60db 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

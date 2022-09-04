@@ -1,0 +1,13 @@
+.search {
+  grid-area: search;
+  display: flex;
+  justify-content: center;
+
+  input {
+    width: 300px;
+  }
+
+  button {
+    margin-left: 8px;
+  }
+}

@@ -1,0 +1,12 @@
+.results {
+  grid-area: results;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 20px;
+
+  &__message {
+    font-size: large;
+  }
+}
